@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283AEFF726E785AB0033ED71 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283AEFF626E785AB0033ED71 /* Model.swift */; };
+		283AEFFE26ECF0380033ED71 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283AEFFD26ECF0380033ED71 /* TargetType.swift */; };
+		283AF00126ECF1FE0033ED71 /* Terget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283AF00026ECF1FE0033ED71 /* Terget.swift */; };
 		288D0BAB26DA7DEB00FCA946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D0BAA26DA7DEB00FCA946 /* AppDelegate.swift */; };
 		288D0BAD26DA7DEB00FCA946 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D0BAC26DA7DEB00FCA946 /* SceneDelegate.swift */; };
 		288D0BAF26DA7DEB00FCA946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D0BAE26DA7DEB00FCA946 /* ViewController.swift */; };
 		288D0BB226DA7DEB00FCA946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D0BB026DA7DEB00FCA946 /* Main.storyboard */; };
 		288D0BB426DA7DEB00FCA946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288D0BB326DA7DEB00FCA946 /* Assets.xcassets */; };
 		288D0BB726DA7DEB00FCA946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D0BB526DA7DEB00FCA946 /* LaunchScreen.storyboard */; };
+		288D0BC226DA858C00FCA946 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D0BC126DA858C00FCA946 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283AEFF626E785AB0033ED71 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		283AEFFD26ECF0380033ED71 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		283AF00026ECF1FE0033ED71 /* Terget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terget.swift; sourceTree = "<group>"; };
 		288D0BA726DA7DEB00FCA946 /* AppStoreClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D0BAA26DA7DEB00FCA946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		288D0BAC26DA7DEB00FCA946 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		288D0BB326DA7DEB00FCA946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288D0BB626DA7DEB00FCA946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		288D0BB826DA7DEB00FCA946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288D0BC126DA858C00FCA946 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				288D0BAA26DA7DEB00FCA946 /* AppDelegate.swift */,
 				288D0BAC26DA7DEB00FCA946 /* SceneDelegate.swift */,
+				288D0BC126DA858C00FCA946 /* NetworkManager.swift */,
+				283AEFFD26ECF0380033ED71 /* TargetType.swift */,
+				283AF00026ECF1FE0033ED71 /* Terget.swift */,
+				283AEFF626E785AB0033ED71 /* Model.swift */,
 				288D0BAE26DA7DEB00FCA946 /* ViewController.swift */,
 				288D0BB026DA7DEB00FCA946 /* Main.storyboard */,
 				288D0BB326DA7DEB00FCA946 /* Assets.xcassets */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283AEFFE26ECF0380033ED71 /* TargetType.swift in Sources */,
+				283AEFF726E785AB0033ED71 /* Model.swift in Sources */,
+				288D0BC226DA858C00FCA946 /* NetworkManager.swift in Sources */,
 				288D0BAF26DA7DEB00FCA946 /* ViewController.swift in Sources */,
 				288D0BAB26DA7DEB00FCA946 /* AppDelegate.swift in Sources */,
+				283AF00126ECF1FE0033ED71 /* Terget.swift in Sources */,
 				288D0BAD26DA7DEB00FCA946 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
